@@ -36,28 +36,32 @@ const Detail = () => {
       <div className="detail-option">
         <div className="detail-title">
           <span>Chat Settings</span>
-          <img src="./src/images/arrowUp.png" alt="" />
+{/*           <img src="./src/images/arrowUp.png" alt="" /> */}
+          <i class="fa-solid fa-arrow-up"></i>
         </div>
       </div>
 
       <div className="detail-option">
         <div className="detail-title">
           <span>Chat Settings</span>
-          <img src="./src/images/arrowUp.png" alt="" />
+{/*           <img src="./src/images/arrowUp.png" alt="" /> */}
+          <i class="fa-solid fa-arrow-up"></i>
         </div>
       </div>
 
       <div className="detail-option">
         <div className="detail-title">
           <span>Privacy & help</span>
-          <img src="./src/images/arrowUp.png" alt="" />
+{/*           <img src="./src/images/arrowUp.png" alt="" /> */}
+          <i class="fa-solid fa-arrow-up"></i>
         </div>
       </div>
 
       <div className="detail-option">
         <div className="detail-title">
           <span>Shared Photos</span>
-          <img src="./src/images/arrowDown.png" alt="" />
+{/*           <img src="./src/images/arrowDown.png" alt="" /> */}
+          <i class="fa-solid fa-arrow-down"></i>
         </div>
       </div>
 
@@ -68,7 +72,8 @@ const Detail = () => {
         <img src="https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" />
         <span>photo_2024_2.png</span>
         </div>
-       <img src="./src/images/download.png" alt="" className='detail-icons'/>
+{/*        <img src="./src/images/download.png" alt="" className='detail-icons'/> */}
+         <i class="fa-solid fa-download"  className='detail-icons'></i>
        </div>
 
        <div className="detail-photoItem">
@@ -76,7 +81,8 @@ const Detail = () => {
         <img src="https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" />
         <span>photo_2024_2.png</span>
         </div>
-       <img src="./src/images/download.png" alt="" className='detail-icons' />
+{/*        <img src="./src/images/download.png" alt="" className='detail-icons' /> */}
+         <i class="fa-solid fa-download"  className='detail-icons'></i>
        </div>
 
       </div>
@@ -84,7 +90,8 @@ const Detail = () => {
       <div className="detail-option">
         <div className="detail-title">
           <span>Shared files</span>
-          <img src="./src/images/arrowUp.png" alt="" />
+{/*           <img src="./src/images/arrowUp.png" alt="" /> */}
+           <i class="fa-solid fa-arrow-up"></i>
         </div>
       </div>
       <button className='detail-blockbtn' onClick={handleBlock}>
