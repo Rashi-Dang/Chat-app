@@ -116,9 +116,12 @@ const Chat = () => {
           </div>
         </div>
         <div className='icons'>
-          <img src='./src/images/phone.png' alt='' />
-          <img src='./src/images/video.png' alt='' />
-          <img src='./src/images/info.png' alt='' />
+{/*           <img src='./src/images/phone.png' alt='' /> */}
+          <i class="fa-solid fa-phone"></i>
+{/*           <img src='./src/images/video.png' alt='' />*/}
+          <i class="fa-solid fa-video"></i>
+{/*           <img src='./src/images/info.png' alt='' /> */}
+          <i class="fa-solid fa-circle-info"></i>
         </div>
       </div>
 
@@ -146,12 +149,14 @@ const Chat = () => {
       <div className='bottom'>
         <div className='icons'>
           <label htmlFor='file'>
-            <img src='./src/images/img.png' alt='' />
+{/*             <img src='./src/images/img.png' alt='' /> */}
+            <i class="fa-solid fa-image"></i>
           </label>
           <input type='file' id='file' style={{ display: 'none' }} onChange={handleImg} />
 {/*           <img src='./src/images/camera.png' alt='' /> */}
           <i class="fa-solid fa-camera"></i>
-          <img src='./src/images/mic.png' alt='' />
+{/*           <img src='./src/images/mic.png' alt='' /> */}
+          <i class="fa-solid fa-microphone"></i>
         </div>
 
         <input
@@ -163,7 +168,8 @@ const Chat = () => {
         />
 
         <div className='emoji'>
-          <img src='./src/images/emoji.png' alt='' onClick={() => setOpen((prev) => !prev)} />
+{/*           <img src='./src/images/emoji.png' alt='' onClick={() => setOpen((prev) => !prev)} /> */}
+          <i class="fa-solid fa-face-smile" onClick={() => setOpen((prev) => !prev)} ></i>
           {open && (
             <div className='picker'>
               <EmojiPicker onEmojiClick={handleEmoji} />
