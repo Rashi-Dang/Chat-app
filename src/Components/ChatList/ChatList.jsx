@@ -74,7 +74,8 @@ const ChatList = () => {
     <div className='chatlist'>
       <div className="search">
         <div className="searchbar">
-            <img src="./src/images/search.png" alt="" />
+{/*             <img src="./src/images/search.png" alt="" /> */}
+            <i class="fa-solid fa-magnifying-glass"></i>
             <input type="text" placeholder="Search" onChange={(e)=>setInput(e.target.value)}/>
         </div>
         <img src={addMode ? "./src/images/minus.png" : "./src/images/plus.png"} alt="" className='add' 
