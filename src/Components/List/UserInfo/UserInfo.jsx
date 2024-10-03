@@ -12,9 +12,12 @@ const UserInfo = () => {
         <h2>{currentUser.username}</h2>
       </div>
       <div className="icons">
-        <img src="./src/images/more.png" alt="" />
-        <img src="./src/images/video.png" alt="" />
-        <img src="./src/images/edit.png" alt="" />
+{/*         <img src="./src/images/more.png" alt="" /> */}
+  <i class="fa-solid fa-ellipsis"></i>
+{/*         <img src="./src/images/video.png" alt="" /> */}
+        <i class="fa-solid fa-video"></i>
+{/*         <img src="./src/images/edit.png" alt="" /> */}
+        <i class="fa-solid fa-pen"></i>
       </div>
     </div>
   )
