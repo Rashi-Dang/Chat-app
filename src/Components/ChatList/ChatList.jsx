@@ -78,8 +78,10 @@ const ChatList = () => {
             <i class="fa-solid fa-magnifying-glass"></i>
             <input type="text" placeholder="Search" onChange={(e)=>setInput(e.target.value)}/>
         </div>
-        <img src={addMode ? "./src/images/minus.png" : "./src/images/plus.png"} alt="" className='add' 
-        onClick={()=>setAddMode((prev) => !prev)}/>
+{/*         <img src={addMode ? "./src/images/minus.png" : "./src/images/plus.png"} alt="" className='add' 
+        onClick={()=>setAddMode((prev) => !prev)}/> */}
+           <i className={`fa-solid ${addMode ? 'fa-minus' : 'fa-plus'} add`} 
+  onClick={() => setAddMode((prev) => !prev)}></i>
       </div>
 
 {
